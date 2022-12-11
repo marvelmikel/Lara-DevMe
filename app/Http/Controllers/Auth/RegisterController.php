@@ -5,10 +5,14 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\FeedList;
 use Illuminate\Support\Facades\Hash;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Auth;
 use Session;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Http;
+use Log;
 
 class RegisterController extends Controller
 {
@@ -47,14 +51,12 @@ class RegisterController extends Controller
             $credentials = $request->only('email', 'password');
 
             if (Auth::attempt($credentials)) {
-                return redirect()->intended('/')
-                            ->withSuccess('Signed in');
+                return redirect()->intended('/')->withSuccess('Signed in');
             }
-
-            return back()->with('error', 'There was an error.');
 
         }else{
             return back()->with('error', 'There was an error.');
         }
     }
+
 }

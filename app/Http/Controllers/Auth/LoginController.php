@@ -12,9 +12,9 @@ class LoginController extends Controller
 {
     public function index()
     {
-        if(Auth::check()){
-            return back();
-        }
+        // if(Auth::check()){
+        //     return back();
+        // }
 
         return view('auth.login');
     }
@@ -27,12 +27,13 @@ class LoginController extends Controller
         ]);
 
         $credentials = $request->only('email', 'password');
+
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('/')
-                        ->withSuccess('Signed in');
+            return redirect()->intended('/')->withSuccess('Signed in');
+        }else{
+            return redirect("login")->withSuccess('Login details are not valid');
         }
 
-        return redirect("login")->withSuccess('Login details are not valid');
     }
 
     public function signOut() {
