@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.register__title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 10rem 0 2rem;
+    color: rgb(163, 163, 163);
+}
+
+.register__form {
+    width: 50%;
+}
+
+.register__form form {
+    width: 100%;
+}
+
+.input__box {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.input__box input{
+    padding: 14px;
+    border: 1px solid #ddd;
+}
+
+.input__box input:focus{
+    outline: none;
+}
+
+.submit__btn {
+    padding: 14px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(76, 76, 204);
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
