@@ -9,4 +9,5 @@ A laravel RSS feed reader, which should allow users to Register with an email an
 8. run "php artisan serve",
 9. copy the localhost url to the browser,
 Congratulation Project running Successfull.
+<br>
 Note: To check test run "php artisan test" on the root directory of the project.
