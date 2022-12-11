@@ -7,7 +7,7 @@
     <div class="px-6 py-4">
         <h4 style="font-size: 3rem; color: gray;" class="mb-4">Welcome Back</h4>
 
-        <p style="font-size: 1.2rem;margin-bottom:15px;">You can subscribe any of the below RSS feeds</p>
+        <p style="font-size: 1.2rem;margin-bottom:15px;">You can Add RSS feeds by subscribe to any of the below RSS feeds to your personal RSS feed list</p>
         @foreach($rss_feeds as $feed)
             <div class="" style="margin: 0 0 10px;">
                 <form action="{{ route('subscribe') }}" method="post">
@@ -22,7 +22,7 @@
         @endforeach
 
         @if(count($feeds) > 0)
-            <h3 style="margin: 4rem 0 1rem;">Here is your feed list: </h3>
+            <h3 style="margin: 4rem 0 1rem;">Personal feed list: </h3>
             @foreach($feeds as $feed)
                 <div class="p-6 feed" style="margin: 0 0 5px; border: 1px solid #ddd; border-radius: 1rem; ">
                     <a href="{{ 'feed/'.$feed->public_id }}" class="feed__link" style="font-size: 2rem;">{{ $feed->title }}</a>
