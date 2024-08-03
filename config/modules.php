@@ -111,12 +111,12 @@ return [
         */
         'generator' => [
             // app/
-            'actions' => ['path' => 'app/Actions', 'generate' => false],
+            'actions' => ['path' => 'app/Actions', 'generate' => true],
             'casts' => ['path' => 'app/Casts', 'generate' => false],
             'channels' => ['path' => 'app/Broadcasting', 'generate' => false],
             'class' => ['path' => 'app/Classes', 'generate' => false],
-            'command' => ['path' => 'app/Console', 'generate' => true],
-            'component-class' => ['path' => 'app/View/Components', 'generate' => false],
+            'command' => ['path' => 'app/Console', 'generate' => false],
+            'component-class' => ['path' => 'app/View/Components', 'generate' => true],
             'emails' => ['path' => 'app/Emails', 'generate' => true],
             'event' => ['path' => 'app/Events', 'generate' => true],
             'enums' => ['path' => 'app/Enums', 'generate' => false],
@@ -131,17 +131,17 @@ return [
             'policies' => ['path' => 'app/Policies', 'generate' => false],
             'provider' => ['path' => 'app/Providers', 'generate' => true],
             'repository' => ['path' => 'app/Repositories', 'generate' => false],
-            'resource' => ['path' => 'app/Resources', 'generate' => true],
+            'resource' => ['path' => 'app/Transformers', 'generate' => false],
             'route-provider' => ['path' => 'app/Providers', 'generate' => true],
             'rules' => ['path' => 'app/Rules', 'generate' => false],
             'services' => ['path' => 'app/Services', 'generate' => false],
             'scopes' => ['path' => 'app/Models/Scopes', 'generate' => false],
-            'traits' => ['path' => 'app/Traits', 'generate' => true],
+            'traits' => ['path' => 'app/Traits', 'generate' => false],
 
             // app/Http/
             'controller' => ['path' => 'app/Http/Controllers', 'generate' => true],
             'filter' => ['path' => 'app/Http/Middleware', 'generate' => false],
-            'request' => ['path' => 'app/Http/Requests', 'generate' => true],
+            'request' => ['path' => 'app/Http/Requests', 'generate' => false],
 
             // config/
             'config' => ['path' => 'config', 'generate' => true],
@@ -152,7 +152,7 @@ return [
             'seeder' => ['path' => 'database/seeders', 'generate' => true],
 
             // lang/
-            'lang' => ['path' => 'lang', 'generate' => true],
+            'lang' => ['path' => 'lang', 'generate' => false],
 
             // resource/
             'assets' => ['path' => 'resources/assets', 'generate' => true],
