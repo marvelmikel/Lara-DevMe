@@ -27,44 +27,80 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## [Demo](https://deve-me-fe.vercel.app/)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Installation Steps
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 1. Require the Package
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+After creating your new Laravel application you can include the Voyager package with the following command:
 
-## Laravel Sponsors
+```bash
+composer require tcg/voyager
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+> If you are installing this on Laravel 10, we are working on getting a permanent release available; however, you can still use this with Larvel 10 by requiring the following:
 
-### Premium Partners
+```bash
+composer require tcg/voyager dev-1.6-l10
+```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 2. Add the DB Credentials & APP_URL
 
-## Contributing
+Next make sure to create a new database and add your database credentials to your .env file:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```
+DB_HOST=localhost
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+```
 
-## Code of Conduct
+You will also want to update your website URL inside of the `APP_URL` variable inside the .env file:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+```
+APP_URL=http://localhost:8000
+```
 
-## Security Vulnerabilities
+### 3. Run The Installer
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Lastly, we can install voyager. You can do this either with or without dummy data.
+The dummy data will include 1 admin account (if no users already exists), 1 demo page, 4 demo posts, 2 categories and 7 settings.
 
-## License
+To install Voyager without dummy simply run
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+php artisan voyager:install
+```
+
+If you prefer installing it with dummy run
+
+```bash
+php artisan voyager:install --with-dummy
+```
+
+And we're all good to go!
+
+Start up a local development server with `php artisan serve` And, visit [http://localhost:8000/admin](http://localhost:8000/admin).
+
+## Creating an Admin User
+
+If you did go ahead with the dummy data, a user should have been created for you with the following login credentials:
+
+>**email:** `admin@admin.com`   
+>**password:** `password`
+
+NOTE: Please note that a dummy user is **only** created if there are no current users in your database.
+
+If you did not go with the dummy user, you may wish to assign admin privileges to an existing user.
+This can easily be done by running this command:
+
+```bash
+php artisan voyager:admin your@email.com
+```
+
+If you did not install the dummy data and you wish to create a new admin user, you can pass the `--create` flag, like so:
+
+```bash
+php artisan voyager:admin your@email.com --create
+```
+
+And you will be prompted for the user's name and password.
