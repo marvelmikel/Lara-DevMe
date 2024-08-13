@@ -13,10 +13,14 @@
 
 Laravel-DevMe is an open-source, full-stack Laravel codebase designed to help developers create modular, scalable applications quickly and efficiently. It includes a customizable admin module template, Tailwind CSS for frontend design, and supports the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire).
 
-- Modular Architecture:Easily build and manage your application with a clean, modular structure..
+- Modular Architecture: Easily build and manage your application with a clean, modular structure.
+  
 - Admin Module Template: Save time with a pre-built, fully customizable admin panel.
+  
 - Tailwind CSS: Create modern, responsive UIs with minimal effort.
+  
 - TALL Stack Compatibility: Enjoy the power of Livewire and Alpine.js for dynamic, reactive applications.
+  
 - Supported Database : Mysql , MongoDB & Postgres
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
