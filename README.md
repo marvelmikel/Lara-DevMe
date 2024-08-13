@@ -36,8 +36,7 @@ After setting up Laravel your local machine. run
 ```bash
 git clone https://github.com/marvelmikel/Lara-DevMe.git
 ```
-
-> run command to installl all packages 
+Run command to installl all packages 
 
 ```bash
 composer install
