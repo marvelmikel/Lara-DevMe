@@ -9,9 +9,9 @@
     <a href="https://php.net"><img alt="PHP 8.1" src="https://img.shields.io/badge/PHP-8.2-777BB4?style=for-the-badge&logo=php"></a>
 </p>
 
-## About Laravel
+## About Lara-DevMe
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Laravel-DevMe is an open-source, full-stack Laravel codebase designed to help developers create modular, scalable applications quickly and efficiently. It includes a customizable admin module template, Tailwind CSS for frontend design, and supports the TALL stack (Tailwind CSS, Alpine.js, Laravel, Livewire).
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
