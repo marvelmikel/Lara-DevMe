@@ -61,16 +61,16 @@ APP_URL=http://localhost:8000
 
 ### 3. Run The Installer
 
-Lastly, we can install voyager. You can do this either with or without dummy data.
-The dummy data will include 1 admin account (if no users already exists), 1 demo page, 4 demo posts, 2 categories and 7 settings.
+Lastly, we can setup DevMe, with or without dummy data.
+The dummy data will include 1 admin account login details.
 
-To install DevMe without dummy simply run
+To install DevMe without dummy simply run migrate
 
 ```bash
 php artisan migrate
 ```
 
-If you prefer installing it with dummy run
+If you prefer setting it up with dummy data on DB run
 
 ```bash
  php artisan db:seed
