@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "laravel/folio": "^1.1",
         "laravel/framework": "^11.9",
         "laravel/tinker": "^2.9",
         "nwidart/laravel-modules": "^11.0"
@@ -51,7 +52,9 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "dont-discover": [
+               
+            ]
         },
         "merge-plugin": {
             "include": [
@@ -59,7 +62,7 @@
                 "Modules/*/composer.json"
             ],
             "require": [
-                "Modules/*/composer.json"
+                
             ],
             "recurse": true,
             "replace": false,
