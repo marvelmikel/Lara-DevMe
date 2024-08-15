@@ -87,3 +87,7 @@ If you did go ahead with the dummy data, a user should have been created for you
 >**email:** `admin@admin.com`   
 >**password:** `password`
 
+## Contributing
+
+Please see our [contributing guide](https://laravel.com/docs/11.x/contributions).
+
