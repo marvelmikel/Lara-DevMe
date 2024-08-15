@@ -1,101 +1,38 @@
+---
 name: Bug report
-description: Report a problem you're experiencing
-labels: bug,unconfirmed,medium priority
-projects: ['filamentphp/2']
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Before opening a bug report, please search the existing issues (both open and closed).
+about: Create a report to help us improve
+title: ''
+labels: bug
+assignees: marvelmikel
 
-        ---
+---
 
-        Thank you for taking the time to file a bug report. To address this bug as fast as possible, we need some information.
-  - type: dropdown
-    id: package
-    attributes:
-      label: Package
-      description: Which package is this bug report for?
-      options:
-        - filament/actions
-        - filament/filament
-        - filament/forms
-        - filament/infolists
-        - filament/notifications
-        - filament/spark-billing-provider
-        - filament/spatie-laravel-google-fonts-plugin
-        - filament/spatie-laravel-media-library-plugin
-        - filament/spatie-laravel-settings-plugin
-        - filament/spatie-laravel-tags-plugin
-        - filament/spatie-laravel-translatable-plugin
-        - filament/support
-        - filament/tables
-        - filament/widgets
-        - Other
-      default: 1
-    validations:
-      required: true
-  - type: input
-    id: package-version
-    attributes:
-      label: Package Version
-      description: Please provide the full version of the package you have installed.
-      placeholder: v3.0.0
-    validations:
-      required: true
-  - type: input
-    id: laravel-version
-    attributes:
-      label: Laravel Version
-      description: Please provide the full Laravel version of your project.
-      placeholder: v10.0.0
-    validations:
-      required: true
-  - type: input
-    id: livewire-version
-    attributes:
-      label: Livewire Version
-      description: Please provide the full Livewire version of your project, if applicable.
-      placeholder: v3.0.0
-  - type: input
-    id: php-version
-    attributes:
-      label: PHP Version
-      description: Please provide the full PHP version of your server.
-      placeholder: PHP 8.3.0
-    validations:
-      required: true
-  - type: textarea
-    id: description
-    attributes:
-      label: Problem description
-      description: What happened when you experienced the problem?
-    validations:
-      required: true
-  - type: textarea
-    id: expectation
-    attributes:
-      label: Expected behavior
-      description: What did you expect to happen instead?
-    validations:
-      required: true
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      description: Which steps do we need to take to reproduce the problem? Any code examples need to be **as short as possible**, remove any code that is unrelated to the bug.  **This issue will be automatically closed and not reviewed if detailed replication steps are missing.**
-    validations:
-      required: true
-  - type: input
-    id: reproduction
-    attributes:
-      label: Reproduction repository (issue will be closed if this is not valid)
-      description: The URL of a public GitHub repository which reproduces the problem. **Please do not link to your actual project**, what we need instead is a _minimal_ reproduction in a fresh project without any unnecessary code. This means it doesn\'t matter if your real project is private / confidential, since we want a link to a separate, isolated reproduction. This allows us to fix the problem much quicker. **This issue will be automatically closed and not reviewed if this is missing. Please make sure to format the URL starting with `https://github.com` - only repositories hosted on GitHub are accepted.** [Need a headstart? We have a template Filament project for you.](https://filament-issue.unitedbycode.com)
-    validations:
-      required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: If applicable, provide relevant log output. No need for backticks here.
-      render: shell
+**Describe the bug**
+A clear and concise description of what the bug is.
+
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
+
+**Expected behavior**
+A clear and concise description of what you expected to happen.
+
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
+
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
+
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
+
+**Additional context**
+Add any other context about the problem here.
