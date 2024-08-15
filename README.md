@@ -93,5 +93,5 @@ Please see our [contributing guide](https://laravel.com/docs/11.x/contributions)
 
 ## Need Help?
 
-🐞 If you spot a bug, please [submit a detailed issue](https://github.com/filamentphp/filament/issues/new?assignees=&labels=bug%2Cunconfirmed&template=bug_report.yml), and wait for assistance.
+🥹 If you sight a bug, please [submit a detailed issue](https://github.com/marvelmikel/Lara-DevMe/issues/new?assignees=marvelmikel&labels=bug&projects=&template=bug_report.md&title=), and wait for assistance.
 
