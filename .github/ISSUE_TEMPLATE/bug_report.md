@@ -1,8 +1,10 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+description: Report a problem you're experiencing
+labels: defect, unclear, moderate priority
+projects: ['DevMe']
 title: ''
-labels: bug
+
 assignees: marvelmikel
 
 ---
