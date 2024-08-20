@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c5ad92cec533bc7e6dafd3fe756db96",
+    "content-hash": "372f2a607d3bbf31340cde6cf11984b4",
     "packages": [
+        {
+            "name": "airondev/laravel-seeder-generator",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AironDev/laravel-seeder-generator.git",
+                "reference": "30f7a9e34a2edee7fad4204020d8cc8b8061fb42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AironDev/laravel-seeder-generator/zipball/30f7a9e34a2edee7fad4204020d8cc8b8061fb42",
+                "reference": "30f7a9e34a2edee7fad4204020d8cc8b8061fb42",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^7.0|^8.0|^9.0|^10.0|^11.0",
+                "php": "^7.4|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Airondev\\SeederGenerator\\SeederGeneratorServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Airondev\\SeederGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel package to generate seeders for each database table.",
+            "support": {
+                "issues": "https://github.com/AironDev/laravel-seeder-generator/issues",
+                "source": "https://github.com/AironDev/laravel-seeder-generator/tree/v1.0.1"
+            },
+            "time": "2024-08-15T15:31:19+00:00"
+        },
         {
             "name": "brick/math",
             "version": "0.12.1",

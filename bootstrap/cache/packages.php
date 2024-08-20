@@ -1,4 +1,11 @@
 <?php return array (
+  'airondev/laravel-seeder-generator' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Airondev\\SeederGenerator\\SeederGeneratorServiceProvider',
+    ),
+  ),
   'laravel/folio' => 
   array (
     'providers' => 
