@@ -11,6 +11,11 @@ class AdminDatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // $this->call([]);
+       // User::factory(10)->create();
+
+        // User::factory()->create([
+        //     'name' => 'Test User',
+        //     'email' => 'test@example.com',
+        // ]);
     }
 }

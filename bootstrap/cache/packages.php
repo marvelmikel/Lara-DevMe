@@ -6,6 +6,13 @@
       0 => 'Airondev\\SeederGenerator\\SeederGeneratorServiceProvider',
     ),
   ),
+  'laravel/breeze' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Breeze\\BreezeServiceProvider',
+    ),
+  ),
   'laravel/folio' => 
   array (
     'providers' => 
