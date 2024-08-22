@@ -8,7 +8,7 @@
         <div
             class="w-full  m-auto bg-white dark:bg-slate-800/60 rounded shadow-lg ring-2 ring-slate-300/50 dark:ring-slate-700/50 lg:max-w-md">
             <div class="text-center p-6 bg-slate-900 rounded-t">
-                <a href='index.html'><img src="assets/images/logo-sm.png" alt="" class="w-14 h-14 mx-auto mb-2"></a>
+                <a href='/'><img src="assets/images/logo-sm.png" alt="" class="w-14 h-14 mx-auto mb-2"></a>
                 <h3 class="font-semibold text-white text-xl mb-1">Let's Get Started Robotech</h3>
                 <p class="text-xs text-slate-400">Sign in to continue to Robotech.</p>
             </div>
@@ -52,7 +52,7 @@
                 @if (Route::has('register'))
                    
                 <a href="{{ route('register') }}"
-                    class='font-medium text-brand-500 hover:underline' href='auth-register.html'>Sign up</a>
+                    class='font-medium text-brand-500 hover:underline'>Sign up</a>
                 @endif
             </p>
         </div>
