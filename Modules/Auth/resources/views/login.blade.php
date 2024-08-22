@@ -32,15 +32,13 @@
 
 
                 </div>
-                <a href="auth-login.html#" class="text-xs font-medium text-brand-500 underline ">Forget Password?</a>
+                @if (Route::has('password.request'))
+                <a href="{{ route('password.request') }}" class="text-xs font-medium text-brand-500 underline ">  {{ __('Forgot your password?') }}</a>
+                @endif
                 <div class="block mt-3">
-                    <label class="custom-label block dark:text-slate-300">
-                        <div
-                            class="bg-white dark:bg-slate-700  border border-slate-200 dark:border-slate-600 rounded w-4 h-4  inline-block leading-4 text-center -mb-[3px]">
-                            <input type="checkbox" class="hidden">
-                            <i class="fas fa-check hidden text-xs text-slate-700 dark:text-slate-200"></i>
-                        </div>
-                        Remember me
+                    <label for="remember_me" class="inline-flex items-center">
+                        <input id="remember_me" type="checkbox" class="rounded dark:bg-gray-900 border-gray-300 dark:border-gray-700 text-indigo-600 shadow-sm focus:ring-indigo-500 dark:focus:ring-indigo-600 dark:focus:ring-offset-gray-800" name="remember">
+                        <span class="ms-2 text-sm text-gray-600 dark:text-gray-400">{{ __('Remember me') }}</span>
                     </label>
                 </div>
                 <div class="mt-4">
@@ -50,8 +48,12 @@
                     </button>
                 </div>
             </form>
-            <p class="mb-5 text-sm font-medium text-center text-slate-500"> Don't have an account? <a
+            <p class="mb-5 text-sm font-medium text-center text-slate-500"> Don't have an account? 
+                @if (Route::has('register'))
+                   
+                <a href="{{ route('register') }}"
                     class='font-medium text-brand-500 hover:underline' href='auth-register.html'>Sign up</a>
+                @endif
             </p>
         </div>
     </div>
