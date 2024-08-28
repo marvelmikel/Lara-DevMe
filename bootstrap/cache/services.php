@@ -32,8 +32,9 @@
     28 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     29 => 'Termwind\\Laravel\\TermwindServiceProvider',
     30 => 'Nwidart\\Modules\\LaravelModulesServiceProvider',
-    31 => 'App\\Providers\\AppServiceProvider',
-    32 => 'App\\Providers\\FolioServiceProvider',
+    31 => 'TYGHaykal\\LaravelSeedGenerator\\SeedGeneratorServiceProvider',
+    32 => 'App\\Providers\\AppServiceProvider',
+    33 => 'App\\Providers\\FolioServiceProvider',
   ),
   'eager' => 
   array (
@@ -53,8 +54,9 @@
     13 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     14 => 'Termwind\\Laravel\\TermwindServiceProvider',
     15 => 'Nwidart\\Modules\\LaravelModulesServiceProvider',
-    16 => 'App\\Providers\\AppServiceProvider',
-    17 => 'App\\Providers\\FolioServiceProvider',
+    16 => 'TYGHaykal\\LaravelSeedGenerator\\SeedGeneratorServiceProvider',
+    17 => 'App\\Providers\\AppServiceProvider',
+    18 => 'App\\Providers\\FolioServiceProvider',
   ),
   'deferred' => 
   array (

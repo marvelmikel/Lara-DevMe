@@ -80,9 +80,7 @@ And we're all good to go!
 
 Start up a local development server with `php artisan serve` And, visit [http://localhost:8000/admin](http://localhost:8000/admin).
 
-## Creating an Admin User
-
-If you did go ahead with the dummy data, a user should have been created for you with the following login credentials:
+## Admin User Login Detail
 
 >**email:** `admin@admin.com`   
 >**password:** `password`

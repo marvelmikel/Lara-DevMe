@@ -66,4 +66,11 @@
       'Module' => 'Nwidart\\Modules\\Facades\\Module',
     ),
   ),
+  'tyghaykal/laravel-seed-generator' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'TYGHaykal\\LaravelSeedGenerator\\SeedGeneratorServiceProvider',
+    ),
+  ),
 );
