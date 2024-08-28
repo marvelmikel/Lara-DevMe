@@ -82,9 +82,14 @@ Start up a local development server with `php artisan serve` And, visit [http://
 
 ## Admin User Login Detail
 
+Email 
+
 ```bash
 admin@admin.com
 ```  
+
+
+Password
 
 ```bash
  password
