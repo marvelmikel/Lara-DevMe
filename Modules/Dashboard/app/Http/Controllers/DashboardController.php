@@ -1,20 +1,21 @@
 <?php
 
-namespace Modules\Admin\Http\Controllers;
+namespace Modules\Dashboard\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
+use Illuminate\View\View;
 
-class AdminController extends Controller
+class DashboardController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
     public function index()
     {
-        return view('admin::index');
+        return view('dashboard::index');
     }
 
     /**
@@ -22,7 +23,7 @@ class AdminController extends Controller
      */
     public function create()
     {
-        return view('admin::create');
+        return view('dashboard::create');
     }
 
     /**
@@ -38,7 +39,7 @@ class AdminController extends Controller
      */
     public function show($id)
     {
-        return view('admin::show');
+        return view('dashboard::show');
     }
 
     /**
@@ -46,7 +47,7 @@ class AdminController extends Controller
      */
     public function edit($id)
     {
-        return view('admin::edit');
+        return view('dashboard::edit');
     }
 
     /**

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Modules\Admin\Http\Controllers\AdminController;
+use Modules\Dashboard\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,5 +15,5 @@ use Modules\Admin\Http\Controllers\AdminController;
 */
 
 Route::group([], function () {
-    Route::resource('admin', AdminController::class)->names('admin');
+    Route::resource('dashboard', DashboardController::class)->names('dashboard');
 });

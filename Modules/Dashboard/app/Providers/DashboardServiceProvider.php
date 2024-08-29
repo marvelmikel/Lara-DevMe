@@ -1,15 +1,15 @@
 <?php
 
-namespace Modules\Admin\Providers;
+namespace Modules\Dashboard\Providers;
 
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 
-class AdminServiceProvider extends ServiceProvider
+class DashboardServiceProvider extends ServiceProvider
 {
-    protected string $moduleName = 'Admin';
+    protected string $moduleName = 'Dashboard';
 
-    protected string $moduleNameLower = 'admin';
+    protected string $moduleNameLower = 'dashboard';
 
     /**
      * Boot the application events.

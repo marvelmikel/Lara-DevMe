@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Modules\Admin\Http\Controllers\AdminController;
+use Modules\Dashboard\Http\Controllers\DashboardController;
 
 /*
  *--------------------------------------------------------------------------
@@ -15,5 +15,5 @@ use Modules\Admin\Http\Controllers\AdminController;
 */
 
 Route::middleware(['auth:sanctum'])->prefix('v1')->group(function () {
-    Route::apiResource('admin', AdminController::class)->names('admin');
+    Route::apiResource('dashboard', DashboardController::class)->names('dashboard');
 });
