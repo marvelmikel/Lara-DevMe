@@ -62,12 +62,10 @@ block print:hidden z-50">
        <span data-lucide="bell" class="top-icon w-5 h-5"></span>
      </button>
 
-     <div
-       class="left-auto right-0 z-50 my-1 hidden w-64
+     <div class="left-auto right-0 z-50 my-1 hidden w-64
        list-none divide-y h-52 divide-gray-100 rounded border border-slate-700/10
       text-base shadow dark:divide-gray-600 bg-white
-       dark:bg-slate-800"
-       id="navNotifications" data-simplebar>
+       dark:bg-slate-800" id="navNotifications" data-simplebar>
        <ul class="py-1" aria-labelledby="navNotifications">
          <li class="py-2 px-4">
            <a href="javascript:void(0);" class="dropdown-item">
@@ -90,7 +88,7 @@ block print:hidden z-50">
            <a href="javascript:void(0);" class="dropdown-item">
              <div class="flex">
                <img class="object-cover rounded-full h-8 w-8 shrink-0 me-3"
-                 src="assets/images/users/avatar-3.png" alt="logo" />
+                 src="{{ asset('assets/images/users/avatar-3.png')}}" alt="logo" />
                <div class="flex-grow flex-1 ms-0.5 overflow-hidden">
                  <p class="text-sm font-medium text-gray-900 truncate
                    dark:text-gray-300">Your order is placed</p>
@@ -123,7 +121,7 @@ block print:hidden z-50">
            <a href="javascript:void(0);" class="dropdown-item">
              <div class="flex">
                <img class="object-cover rounded-full h-8 w-8 shrink-0 me-3"
-                 src="assets/images/users/avatar-9.png" alt="logo" />
+                 src="{{ asset('assets/images/users/avatar-9.png')}}" alt="logo" />
                <div class="flex-grow flex-1 ms-0.5 overflow-hidden">
                  <p class="text-sm font-medium  text-gray-900 truncate
                    dark:text-gray-300">Meeting with designers</p>
@@ -148,7 +146,7 @@ block print:hidden z-50">
         data-fc-autoclose="both" data-fc-type="dropdown">
        <img
          class="h-8 w-8 rounded-full"
-         src="assets/images/users/avatar-1.png"
+         src="{{ asset('assets/images/users/avatar-1.png')}}"
          alt="user photo"
          />
        <span class="ltr:ms-2 rtl:ms-0 rtl:me-2 hidden text-left xl:block">
