@@ -1,3 +1,4 @@
+
 <div class="min-h-full z-[99]  fixed inset-y-0 print:hidden bg-gradient-to-t from-[#6f3dc3] from-10% via-[#603dc3] via-40% to-[#5c3dc3] to-100% dark:bg-[#603dc3] main-sidebar duration-300 group-data-[sidebar=dark]:bg-[#603dc3] group-data-[sidebar=brand]:bg-brand group-[.dark]:group-data-[sidebar=brand]:bg-[#603dc3]">
     <div class=" text-center border-b bg-[#603dc3] border-r h-[64px] flex justify-center items-center brand-logo dark:bg-[#603dc3] dark:border-slate-700/40 group-data-[sidebar=dark]:bg-[#603dc3] group-data-[sidebar=dark]:border-slate-700/40 group-data-[sidebar=brand]:bg-brand group-[.dark]:group-data-[sidebar=brand]:bg-[#603dc3] group-data-[sidebar=brand]:border-slate-700/40">
         <a class='logo' href='index.html'>
@@ -18,7 +19,7 @@
                    <span class="text-[9px] text-slate-600 dark:text-slate-500 group-data-[sidebar=dark]:text-slate-500 group-data-[sidebar=brand]:text-slate-400">DashboardS & Apps</span></li>
                 <li>
                     <div id="parent-accordion" data-fc-type="accordion">
-                        <a href="index.html#"
+                        <a href="#"
                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200 "
                            data-fc-type="collapse" data-fc-parent="parent-accordion">
                             <span data-lucide="home"
@@ -79,7 +80,7 @@
                                 </li>
                             </ul>                            
                         </div>
-                        <a href="index.html#"
+                        <a href="#"
                             class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200 "
                             data-fc-type="collapse" data-fc-parent="parent-accordion">
                             <span data-lucide="home"
@@ -152,7 +153,7 @@
                             </ul>                            
                         </div>
                         <div data-fc-type="collapse" data-fc-parent="parent-accordion">
-                            <a href="index.html#"
+                            <a href="#"
                                class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200">
                                 <span data-lucide="grid"
                                       class="w-5 h-5 text-center text-slate-800 me-2 dark:text-slate-400 group-data-[sidebar=dark]:text-slate-400 group-data-[sidebar=brand]:text-slate-400"></span>
@@ -195,7 +196,7 @@
                                 </li>
                                 <li>
                                     <div id="Email" data-fc-type="collapse" data-fc-parent="apps-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200 "
                                            aria-expanded="false" aria-controls="Email-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -231,7 +232,7 @@
                             C<span>omponents & Extra</span>
                         </div>
                         <div data-fc-type="collapse" data-fc-parent="parent-accordion">
-                            <a href="index.html#"
+                            <a href="#"
                                class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200">
                                 <span data-lucide="box"
                                       class="w-5 h-5 text-center text-slate-800 me-2 dark:text-slate-400 group-data-[sidebar=dark]:text-slate-400 group-data-[sidebar=brand]:text-slate-400"></span>
@@ -244,7 +245,7 @@
                                 data-fc-type="accordion">
                                 <li>
                                     <div id="UI_Elements" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                                            aria-expanded="false" aria-controls="UI_Elements-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -381,7 +382,7 @@
 
                                 <li>
                                     <div id="Advanced_UI" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200 "
                                            aria-expanded="false" aria-controls="Advanced_UI-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -446,7 +447,7 @@
 
                                 <li>
                                     <div id="Forms" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                                            aria-expanded="false" aria-controls="Forms-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -505,7 +506,7 @@
 
                                 <li>
                                     <div id="Charts" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                                            aria-expanded="false" aria-controls="Charts-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -551,7 +552,7 @@
                                 </li>
                                 <li>
                                     <div id="Tables" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                                            aria-expanded="false" aria-controls="Tables-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -579,7 +580,7 @@
                                 </li>
                                 <li>
                                     <div id="Icons" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                                            aria-expanded="false" aria-controls="Icons-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -613,7 +614,7 @@
                                 </li>
                                 <li>
                                     <div id="Maps" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                                            aria-expanded="false" aria-controls="Maps-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -647,7 +648,7 @@
                                 </li>
                                 <li>
                                     <div id="Email-Temp" data-fc-type="collapse" data-fc-parent="UI_Kit-accordion">
-                                        <a href="index.html#"
+                                        <a href="#"
                                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                                            aria-expanded="false" aria-controls="Email-Temp-flush">
                                             <i class="icofont-dotted-right me-2 text-slate-600 text-[8px] group-data-[sidebar=brand]:text-slate-400"></i>
@@ -682,7 +683,7 @@
                             </ul>
                         </div>
 
-                        <a href="index.html#"
+                        <a href="#"
                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                            data-fc-type="collapse" data-fc-parent="parent-accordion">
                             <span data-lucide="file-plus"
@@ -725,7 +726,7 @@
                                 </li>                             
                             </ul>
                         </div>
-                        <a href="index.html#"
+                        <a href="#"
                            class="nav-link hover:bg-transparent hover:text-black  rounded-md dark:hover:text-slate-200   flex items-center  decoration-0 px-3 py-3 cursor-pointer group-data-[sidebar=dark]:hover:text-slate-200 group-data-[sidebar=brand]:hover:text-slate-200"
                            data-fc-type="collapse" data-fc-parent="parent-accordion">
                                 <span data-lucide="lock"

@@ -15,5 +15,8 @@ use Modules\Dashboard\Http\Controllers\DashboardController;
 */
 
 Route::group([], function () {
+   
+
+
     Route::resource('dashboard', DashboardController::class)->names('dashboard');
 });
