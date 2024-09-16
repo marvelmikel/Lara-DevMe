@@ -7,7 +7,7 @@
                         <div class="items-center ">
                             <h1 class="font-medium text-3xl block dark:text-slate-100">Ecommerce</h1>
                             <ol class="list-reset flex text-sm">
-                                <li><a href="index.html#" class="text-gray-500 dark:text-slate-400">Robotech</a></li>
+                                <li><a href="index.html#" class="text-gray-500 dark:text-slate-400">DevMe</a></li>
                                 <li><span class="text-gray-500 dark:text-slate-400 mx-2">/</span></li>
                                 <li class="text-gray-500 dark:text-slate-400">Dashboard</li>
                                 <li><span class="text-gray-500 dark:text-slate-400 mx-2">/</span></li>

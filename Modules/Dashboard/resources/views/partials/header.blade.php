@@ -152,7 +152,7 @@ block print:hidden z-50">
          alt="user photo"
          />
        <span class="ltr:ms-2 rtl:ms-0 rtl:me-2 hidden text-left xl:block">
-         <span class="block font-medium text-slate-600 dark:text-gray-300">Maria Gibson</span>
+         <span class="block font-medium text-slate-600 dark:text-gray-300">{{ Auth::user()->name }}</span>
          <span class="-mt-0.5 block text-xs text-slate-500 dark:text-gray-400">Admin</span>
        </span>
      </button>
@@ -166,7 +166,7 @@ block print:hidden z-50">
        <ul class="py-1" aria-labelledby="navUserdata">
          <li>
            <a
-             href="index.html#"
+           href="{{ route('profile.edit') }}"
              class="flex items-center py-2 px-3 text-sm text-gray-700 hover:bg-gray-50
              dark:text-gray-200 dark:hover:bg-gray-900/20
              dark:hover:text-white">
