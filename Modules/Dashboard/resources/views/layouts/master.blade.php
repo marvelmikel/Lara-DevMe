@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+<head>
+    <meta charset="utf-8" />
+    <title>Robotech - Admin & Dashboard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta content="Tailwind Multipurpose Admin & Dashboard Template" name="description" />
+    <meta content="" name="Mannatthemes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" />
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <!-- Css -->
+    <!-- Main Css -->
+    <link rel="stylesheet" href="assets/libs/icofont/icofont.min.css">
+    <link href="assets/libs/flatpickr/flatpickr.min.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
 
-        <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-    </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
-            @include('dashboard::layouts.navigation')
+    {{-- Vite CSS --}}
+    {{-- {{ module_vite('build-auth', 'resources/assets/sass/app.scss') }} --}}
+    @vite(\Nwidart\Modules\Module::getAssets())
 
-            <!-- Page Heading -->
-            @isset($header)
-                <header class="bg-white dark:bg-gray-800 shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endisset
+     <!-- Scripts -->
+     @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
 
-            <!-- Page Content -->
-            <main>
-                @yield('content')
-            </main>
-        </div>
-    </body>
-</html>
+<body data-layout-mode="light" data-sidebar-size="default" data-theme-layout="vertical"
+    class="bg-[#EEF0FC] dark:bg-gray-900">
+
+    <!-- leftbar-tab-menu -->
+    @include('dashboard::layouts.leftbar-tab-menu')
+    @include('dashboard::layouts.navigation')
+    @yield('content')
+
+    {{-- Vite JS --}}
+    {{-- {{ module_vite('build-auth', 'resources/assets/js/app.js') }} --}}
+
+
+    <!-- JAVASCRIPTS -->
+    <!-- <div class="menu-overlay"></div> -->
+    <script src="{{ asset('assets/libs/lucide/umd/lucide.min.js') }}"></script>
+    <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
+    <script src="{{ asset('assets/libs/flatpickr/flatpickr.min.js') }}"></script>
+    <script src="{{ asset('assets/libs/@frostui/tailwindcss/frostui.js') }}"></script>
+
+    <script src="{{ asset('assets/libs/apexcharts/apexcharts.min.js') }}"></script>
+    <script src="{{ asset('assets/js/pages/analytics-index.init.js') }}"></script>
+    <script src="{{ asset('assets/js/app.js') }}"></script>
+
+    <!-- JAVASCRIPTS -->
+</body>
