@@ -16,7 +16,10 @@ use Modules\Dashboard\Http\Controllers\DashboardController;
 
 Route::group([], function () {
    
-
+    Route::get('/dashboard', function () {
+        return view('dashboard::index');
+    })->middleware(['auth', 'verified'])->name('dashboard');
+    
 
     Route::resource('dashboard', DashboardController::class)->names('dashboard');
 });
